@@ -1,0 +1,144 @@
+.program {
+  padding: 100px 0 0 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .program {
+    padding: 80px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .program {
+    padding: 60px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .program {
+    padding: 40px 0 0 0;
+  }
+}
+
+.program__head {
+  margin: 0 auto;
+  width: 90%;
+  color: rgba(27, 27, 27, 1);
+}
+
+.program__button {
+  cursor: pointer;
+  filter: brightness(0) invert(1);
+  width: 28px;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .program__button {
+    width: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .program__button {
+    width: 18px;
+  }
+}
+
+.program__cards {
+  margin: 50px auto 0;
+  max-width: 1180px;
+  width: 90%;
+  min-width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1440px) {
+  .program__cards {
+    margin: 40px auto 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .program__cards {
+    margin: 30px auto 0;
+  }
+}
+
+.program__card {
+  background: #1B1B1B;
+  border-radius: 5px;
+}
+
+.program__click {
+  cursor: pointer;
+}
+
+.program__block {
+  padding: 21px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .program__block {
+    padding: 18.5px 0;
+  }
+}
+
+.program__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 90%;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+  .program__title {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .program__title {
+    font-size: 14px;
+  }
+}
+
+.program__punkt {
+  display: none;
+  margin: 0 auto 12px  auto;
+  width: 90%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+  .program__punkt {
+    font-size: 14.5px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .program__punkt {
+    font-size: 13px;
+  }
+}
+
+.program__punkt:last-child {
+  margin: 0 auto 18px auto;
+}
+
+.program__punkt_active {
+  display: flex;
+}

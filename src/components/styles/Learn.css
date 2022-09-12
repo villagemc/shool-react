@@ -1,0 +1,222 @@
+.learn {
+  margin: 0 auto;
+  padding-top: 145px;
+  width: 90%;
+}
+
+@media screen and (max-width: 1620px) {
+  .learn {
+    padding-top: 130px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .learn {
+    padding-top: 115px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .learn {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .learn {
+    padding-top: 90px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .learn {
+    padding-top: 75px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .learn {
+    padding-top: 60px;
+  }
+}
+
+.learn__head {
+  color: rgba(33, 33, 33, 1);
+}
+
+.learn__cards {
+  margin:  0 auto;
+  width: 65%;
+  padding-top: 50px;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1780px) {
+  .learn__cards {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1620px) {
+  .learn__cards {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .learn__cards {
+    gap: 45px;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .learn__cards {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .learn__cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .learn__cards {
+    padding-top: 40px;
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .learn__cards {
+    padding-top: 30px;
+  }
+}
+
+.learn__card {
+  max-width: 410px;
+  width: 100%;
+  min-width: 340px;
+  padding: 44px 0 40px;
+  box-shadow: 0px 25px 70px rgba(1, 33, 58, 0.07);
+  border-radius: 16px;
+}
+
+.learn__format {
+  margin-bottom: 8px;
+  text-align: center;
+  font-family: 'GT Walsheim Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #140342;
+}
+
+.learn__price {
+  margin-bottom: 3px;
+  text-align: center;
+  font-family: 'GT Walsheim Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.2;
+  color: #140342;
+}
+
+.learn__outprice {
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'GT Walsheim Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration-line: line-through;
+  color: #4F547B;
+}
+
+.learn__place {
+  margin-bottom: 30px;
+  padding: 11px 0;
+  background: #6440FB;
+  text-align: center;
+  font-family: 'GT Walsheim Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.learn__text {
+  margin: 0 auto 30px;
+  max-width: 282px;
+  font-family: 'GT Walsheim Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #4F547B;
+}
+
+.learn__punkts {
+  margin: 0 auto 30px;
+  max-width: 282px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.learn__punkt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.learn__mark {
+  width: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.learn__paragraph {
+  font-family: 'GT Walsheim Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.25;
+  color: #4F547B;
+}
+
+.learn__enroll {
+  /* display */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* place */
+  width: 197px;
+  height: 60px;
+  background: rgba(100, 64, 251, 0.07);
+  border-radius: 8px;
+  /* text */
+  font-family: 'GT Walsheim Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #6440FB;
+  /* animation */
+  transition: all .3s ease;
+}
+
+.learn__enroll:hover {
+  color: #FFFFFF;
+  background: #6440FB;
+}

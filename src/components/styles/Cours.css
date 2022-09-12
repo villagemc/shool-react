@@ -1,0 +1,337 @@
+.cours {
+  position: relative;
+  z-index: 1;
+  background: #212121;
+  border-radius: 50px 50px 0px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cours {
+    border-radius: 40px 40px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .cours {
+    border-radius: 30px 30px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cours {
+    border-radius: 20px 20px 0px 0px;
+  }
+}
+
+.cours__content {
+  margin: 0 auto;
+  width: 90%;
+  padding: 100px 0 70px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cours__content {
+    padding: 84px 0 64px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .cours__content {
+    padding: 68px 0 58px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .cours__content {
+    padding: 50px 0 50px;
+  }
+}
+
+.cours__head {
+  font-family: 'Bebas Neue Cyrillic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 90%;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1280px) {
+  .cours__head {
+    font-size: 84px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cours__head {
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .cours__head {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .cours__head {
+    font-size: 48px;
+  }
+}
+
+.cours__circles {
+  padding: 85px 0 170px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.cours__circles::-webkit-scrollbar {
+  height: 3px;
+}
+
+.cours__circles::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.cours__circles::-webkit-scrollbar-thumb {
+  background-color: rgba(227, 235, 246, 1);
+}
+
+@media screen and (max-width: 1620px) {
+  .cours__circles {
+    padding: 70px 0 150px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .cours__circles {
+    padding: 70px 0 130px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .cours__circles {
+    padding: 70px 0 110px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cours__circles {
+    padding: 70px 0 90px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .cours__circles {
+    padding: 70px 0 70px;
+    border-bottom: 1px solid rgba(227, 235, 246, 1);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cours__circles {
+    padding: 52px 0 62px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .cours__circles {
+    padding: 34px 0 54px;
+    margin: 0 auto;
+    width: 327px;
+    overflow-x: scroll;
+  }
+}
+
+.cours__circle {
+  /* place */
+  position: relative;
+  width: 527px;
+  height: 527px;
+  border-radius: 50%;
+  /* display */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1860px) {
+  .cours__circle {
+    width: 466px;
+    height: 466px;
+  }
+}
+
+@media screen and (max-width: 1620px) {
+  .cours__circle {
+    width: 386px;
+    height: 386px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .cours__circle {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cours__circle {
+    min-width: 300px;
+    min-height: 300px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .cours__circle {
+    min-width: 327px;
+    min-height: 327px;
+  }
+}
+
+.cours__circle_one {
+  transform: translateX(15%);
+  background-image: url(../images/circle1.svg);
+}
+
+.cours__circle_two {
+  background-image: url(../images/circle2.svg);
+}
+
+.cours__circle_three {
+  transform: translateX(-15%);
+  background-image: url(../images/circle3.svg);
+}
+
+@media screen and (max-width: 834px) {
+  .cours__circle_one, .cours__circle_three {
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .cours__circle_one {
+    margin-left: 200%;
+  }
+}
+
+.cours__title {
+  font-family: 'Bebas Neue Cyrillic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 90%;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1620px) {
+  .cours__title {
+    font-size: 110px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .cours__title {
+    font-size: 96px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .cours__title {
+    font-size: 82px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cours__title {
+    font-size: 74px;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  .cours__title {
+    font-size: 68px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .cours__title {
+    font-size: 92px;
+  }
+}
+
+.cours__subtitle {
+  margin: 50px 0 0 0;
+  max-width: 261px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 90%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1440px) {
+  .cours__subtitle {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .cours__subtitle {
+    font-size: 16px;
+    max-width: 207px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cours__subtitle {
+    font-size: 14px;
+    max-width: 160px;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  .cours__subtitle {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .cours__subtitle {
+    max-width: 251px;
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 1620px) {
+  .cours__head_subtext {
+    font-size: 64px;
+  } 
+}
+
+@media screen and (max-width: 1360px) {
+  .cours__head_subtext {
+    font-size: 48px;
+  } 
+}
+
+@media screen and (max-width: 1024px) {
+  .cours__head_subtext {
+    font-size: 40px;
+  } 
+}
+
+@media screen and (max-width: 834px) {
+  .cours__head_subtext {
+    display: none;
+  } 
+}
