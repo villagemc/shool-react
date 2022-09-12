@@ -1,3 +1,12 @@
+@keyframes courstime {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100vw);
+  }
+}
+
 .cours {
   position: relative;
   z-index: 1;
@@ -78,6 +87,56 @@
   .cours__head {
     font-size: 48px;
   }
+}
+
+.cours__head__subtext {
+  text-align: center;
+  min-width: 100vw;
+}
+
+@media screen and (max-width: 1890px) {
+  .cours__head_subtext {
+    font-size: 78px;
+  } 
+}
+
+@media screen and (max-width: 1620px) {
+  .cours__head_subtext {
+    font-size: 64px;
+  } 
+}
+
+@media screen and (max-width: 1360px) {
+  .cours__head_subtext {
+    font-size: 48px;
+  } 
+}
+
+@media screen and (max-width: 1024px) {
+  .cours__head_subtext {
+    font-size: 40px;
+  } 
+}
+
+@media screen and (max-width: 834px) {
+  .cours__head_subtext {
+    display: none;
+  } 
+}
+
+.cours__flex {
+  display: flex;
+  position: relative;
+}
+
+.cours__head_anim {
+  position: absolute;
+  animation: courstime 8s linear infinite;
+}
+
+.cours__head_time {
+  transform: translateX(100vw);
+  animation: courstime 8s 4s linear infinite;
 }
 
 .cours__circles {
@@ -310,28 +369,4 @@
     max-width: 251px;
     font-size: 19px;
   }
-}
-
-@media screen and (max-width: 1620px) {
-  .cours__head_subtext {
-    font-size: 64px;
-  } 
-}
-
-@media screen and (max-width: 1360px) {
-  .cours__head_subtext {
-    font-size: 48px;
-  } 
-}
-
-@media screen and (max-width: 1024px) {
-  .cours__head_subtext {
-    font-size: 40px;
-  } 
-}
-
-@media screen and (max-width: 834px) {
-  .cours__head_subtext {
-    display: none;
-  } 
 }

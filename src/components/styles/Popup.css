@@ -3,26 +3,70 @@
   z-index: 3;
   top: 0;
   right: -100%;
-  max-width: 290px;
+  max-width: 350px;
   width: 100%;
-  padding: 45px 0 30px 30px;
+  padding: 30px 0 30px 30px;
   box-sizing: border-box;
   background: #212121;
   transition: all .5s ease;
+}
+
+@media screen and (max-width: 1024px) {
+  .popup {
+    padding-top: 35px;
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .popup {
+    padding-top: 45px;
+    max-width: 290px;
+  }
 }
 
 .popup_active {
   right: 0;
 }
 
+@media screen and (min-width: 1360px) {
+  .popup_active {
+    right: -100%;
+  }
+}
+
 .popup__close {
-  margin: 0 20px 0 auto;
+  margin: 0 60px 0 auto;
   display: block;
   object-fit: contain;
   object-position: center;
   width: 30px;
   height: 19px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .popup__close {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 924px) {
+  .popup__close {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .popup__close {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .popup__close {
+    margin-right: 20px;
+  }
 }
 
 .popup__links {

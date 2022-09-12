@@ -19,7 +19,14 @@ const Cours = () => {
           </li>
           )}
         </ul>
-        <p className="cours__head cours__head_subtext">очное и онлайн обучение • число мест ограничено</p>
+        <div className="cours__flex">
+          <p className="cours__head cours__head_subtext cours__head_anim">
+            очное и онлайн обучение • число мест ограничено
+          </p>
+          <p className="cours__head cours__head_subtext cours__head_time">
+            очное и онлайн обучение • число мест ограничено
+          </p>
+        </div>
       </div>
     </section>
   )
