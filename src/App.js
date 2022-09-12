@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import { BrowserRouter } from 'react-router-dom';
 import Header from './components/scripts/Header';
 import Home from './components/scripts/Home';
 import About from './components/scripts/About';
@@ -22,7 +21,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <React.Fragment>
       <Header
         openPopup={clickPopup}
       />
@@ -42,7 +41,7 @@ function App() {
         active={popupActive}
         closePopup={clickPopup}
       />
-    </BrowserRouter>
+    </React.Fragment>
   );
 }
 
