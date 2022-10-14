@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4c54833f.css",
+    "main.js": "/static/js/main.879ccc19.js",
+    "static/media/man.png": "/static/media/man.a46aee6b10645c80713a.png",
+    "static/media/quest4.svg": "/static/media/quest4.40af15e41d48d48a3383edc2796d749c.svg",
+    "static/media/quest1.svg": "/static/media/quest1.cf15bc8fb986b0155a14f845c27352eb.svg",
+    "static/media/quest3.svg": "/static/media/quest3.fd2b2dbe8e8e141ff366439a105a315b.svg",
+    "static/media/quest2.svg": "/static/media/quest2.5471341369471a9fe0e2e699ec465010.svg",
+    "static/media/footer.svg": "/static/media/footer.292d9f366a0f519ecfebf0d6d9d85d5f.svg",
+    "static/media/prog2.svg": "/static/media/prog2.c61357192132c98de6defb06fcccf24b.svg",
+    "index.html": "/index.html",
+    "static/media/circle3.svg": "/static/media/circle3.b7b3a307b53170b37269.svg",
+    "static/media/circle2.svg": "/static/media/circle2.b8f52e176cc174c25868.svg",
+    "static/media/circle1.svg": "/static/media/circle1.bae49cbd57052ceb0c30.svg",
+    "static/media/arrow.svg": "/static/media/arrow.1fb21fe790789e554185.svg",
+    "static/media/learn.svg": "/static/media/learn.db221490c4813dd4b381c7da116879b2.svg",
+    "static/media/faq.svg": "/static/media/faq.ae6d1ef8c99ee459ead7322d17ea07c7.svg",
+    "static/media/about.svg": "/static/media/about.610f6c8f7b26276275b7159ea6e22a53.svg",
+    "static/media/menu.svg": "/static/media/menu.37be70182dd99adb0b9f82ccb57a952b.svg",
+    "static/media/popup.svg": "/static/media/popup.55ac4406b158605e5f30f2725668d722.svg",
+    "main.4c54833f.css.map": "/static/css/main.4c54833f.css.map",
+    "main.879ccc19.js.map": "/static/js/main.879ccc19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c54833f.css",
+    "static/js/main.879ccc19.js"
+  ]
+}
