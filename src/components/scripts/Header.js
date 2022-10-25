@@ -1,5 +1,6 @@
 import '../styles/Header.css';
 import menuHeader from '../images/menu.svg';
+import headerLogo from '../images/riseshool.png'
 import Links from './Links';
 
 const Header = (props) => {
@@ -12,7 +13,9 @@ const Header = (props) => {
   ]
   return (
     <header className="header">
-      <Links href="" className="header__logo">RISE SCHOOL</Links>
+      <Links href="" className="header__logo-link">
+        <img className="header__logo" src={headerLogo} alt="Логотип" />
+      </Links>
       <div className="header__place">
         <nav>
           <ul className="header__items">

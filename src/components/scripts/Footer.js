@@ -1,5 +1,5 @@
 import '../styles/Footer.css';
-import footerLogo from '../images/footer.svg';
+import footerLogo from '../images/gerb.png';
 import Links from './Links';
 
 const Footer = () => {
@@ -30,12 +30,9 @@ const Footer = () => {
           <Links className="footer__offer hover">Оферта</Links>
           <Links className="footer__offer hover footer__offer_add">Политика конфиденциальности</Links>
         </div>
-        <div className="footer__author">
-          <Links href="" className="footer__logo hover">
-            <img className="footer__image" src={footerLogo} alt="Логотип"/>
-          </Links>
-          <p className="footer__text">Сделано с любовью</p>
-        </div>
+        <Links href="" className="footer__logo hover">
+          <img className="footer__image" src={footerLogo} alt="Логотип"/>
+        </Links>
       </div>
     </footer>
   )

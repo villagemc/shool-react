@@ -32,13 +32,16 @@
   }
 }
 
+.header__logo-link {
+  display: block;
+  width: 70px;
+}
+
 .header__logo {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 30.5455px;
-  line-height: 1.25;
-  color: #6440FB;
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .header__place {
