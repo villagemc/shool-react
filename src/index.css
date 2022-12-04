@@ -1,0 +1,54 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family:
+    'Bebas Neue Cyrillic',
+    'GT Walsheim Pro',
+    'Fira Code',
+    'Offside',
+    'Inter',
+    'Lato',
+    sans-serif
+  ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  margin: 0 auto;
+  max-width: 1920px;
+  min-width: 360px;
+  overflow: hidden;
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p, h1, h2, h3 {
+  margin: 0;
+}
+
+.place {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.hover {
+  opacity: 1;
+  transition: opacity .3s ease;
+}
+
+.hover:hover {
+  opacity: .75;
+}

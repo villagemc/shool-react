@@ -1,0 +1,71 @@
+.home {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.home__content {
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1440px) {
+  .home__content {
+    padding: 75px 0;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .home__content {
+    padding: 50px 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home__content {
+    padding: 25px 0;
+  }
+}
+
+.home__title {
+  text-transform: uppercase;
+  font-family: 'Bebas Neue Cyrillic', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 90%;
+  color: #212121;
+}
+
+@media screen and (max-width: 1280px) {
+  .home__title {
+    font-size: 105px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home__title {
+    font-size: 61px;
+  }
+}
+
+.home__man {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 1620px) {
+  .home__man {
+    display: none;
+  }
+}
+
+.home__line {
+  min-height: 1px;
+  width: 100%;
+  background-color: rgba(227, 235, 246, 1);
+}

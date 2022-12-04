@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Offside';
+    src: url('Offside-Regular.eot');
+    src: local('Offside'), local('Offside-Regular'),
+        url('Offside-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Offside-Regular.woff2') format('woff2'),
+        url('Offside-Regular.woff') format('woff'),
+        url('Offside-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
