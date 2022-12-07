@@ -1,7 +1,33 @@
+import {useState} from 'react';
 import '../styles/Contact.css';
 import Links from './Links';
 
 const Contact = () => {
+  const punkts = [
+    'Пункт1',
+    'Пункт2',
+    'Пункт3' 
+  ];
+
+  const [select, setSelect] = useState(false);
+  const [text, setText] = useState('Выбери форму обучения');
+
+  const activeSelect = () => {
+    return setSelect(!select);
+  }
+
+  const handleChange = () => {
+    setText(
+      document
+        .forms
+        .inputs
+        .radio
+        .value
+    );
+
+    activeSelect();
+  }
+
   return (
     <section className="contact" id="contact">
       <h2 className="cours__head contact__head">Оставь заявку</h2>
@@ -17,18 +43,35 @@ const Contact = () => {
         </div>
         <p className="cours__head contact__head">на обучение</p>
       </div>
-      <form className="contact__form">
+      <form name="inputs" className="contact__form">
         <div className="contact__text">
           <span>Привет! Меня зовут</span>
-          <input className="contact__input" type="text" placeholder="Напишите свое имя"/>
+          <input name="name" className="contact__input" type="text" placeholder="Напишите свое имя"/>
           <span className="contact_orf">,</span>
           <span> и я хочу попасть к вам на курс Wildberries с 0 на форму </span>
-          <input className="contact__input" type="text" placeholder="Выбери форму обучения"/>
-          <span className="contact_orf">.</span>
+          <div className="contact__select" id="select">
+            <p onClick={activeSelect} className="contact__option">{text}</p>
+            {select && <div className="contact__labels">
+              {punkts.map((punkt, i) => 
+              <label key={i} className="contact__label">
+                {punkt}
+                <input
+                  onChange={handleChange}
+                  name="radio"
+                  value={punkt}
+                  className="contact__radio"
+                  type="radio"
+                />
+              </label>
+              )}
+            </div>
+            }
+          </div>
+          <span className="contact_orf"> .</span>
           <span> Вы можете связаться со мной по номеру телефона</span>
-          <input className="contact__input" type="tel" placeholder="Твой номер"/>
+          <input name="tel" className="contact__input" type="tel" placeholder="Твой номер"/>
           <span>или в телеграмм</span>
-          <input className="contact__input" type="text" placeholder="@name"/>
+          <input name="tag" className="contact__input" type="text" placeholder="@name"/>
           <span className="contact_orf">.</span>
         </div>
         <div className="contact__assent">
@@ -41,7 +84,7 @@ const Contact = () => {
               </Links>
             </p>
           </div>
-          <Links className="contact__submit hover" href="">Отправить заявку</Links>
+          <button className="contact__submit hover" type="submit">Отправить заявку</button>
         </div>
       </form>
     </section>
