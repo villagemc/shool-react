@@ -7,3 +7,5 @@
 5. В файле package.json в пункте "homepage" поменяйте ссылку на свою
 
 > Более подробное ознакомление с запуском Git Pages здесь - https://youtu.be/ju6h0UQ8zQE
+
+Расположение сайта: https://villagemc.github.io/shool-react/
